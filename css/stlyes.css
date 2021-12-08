@@ -1,0 +1,611 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image:url(demonslayer.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.navbar {
+
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    border-radius: 30px;
+    
+}
+.navbar__container
+{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    min-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+
+}
+#navbar__logo{
+    
+   
+    background-size: 100%;
+    height: 120%;
+    
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family:Viner Hand Itc ;
+    color: ivory;
+
+}
+
+.fa-gem {
+    margin-right: 0.5rem;
+
+}
+
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__item{
+    height: 50px;
+}
+
+.navbar__links{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 120%;
+    font-family:Bradley Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    border-radius: 8px;
+    border: none;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.navbar__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px 20px;
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-family: Bradley Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+    font-size: 35px;
+
+
+}
+
+.button:hover {
+    background: #FF5A77;
+    transition: all 0.3s ease;
+
+}
+
+.navbar__links:hover {
+    background: #f77062;
+    transition: all 0.3s ease;
+}
+.text h1{
+    position: absolute;
+    top:18vh;
+    right: 60vh;
+    font-family: Viner Hand Itc ;
+    font-size: 40px;
+    color: whitesmoke;
+}
+.text h3{
+    position: absolute;
+    top: 300px;
+    left: 70px;
+    font-family: Viner Hand Itc ;
+    font-size: 30px;
+    color: whitesmoke;
+}
+.text p{
+    position: absolute;
+    top: 350px;
+    left: 70px;
+    font-family: Viner Hand Itc ;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+
+/*********************************CONTENT*************************/
+
+
+.content{
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+    
+    justify-content: center;
+    align-items: center;
+    background-image: url(tab22.jpg);
+    background-size: cover;
+    
+}
+
+.content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: wrap;
+    padding: 40px 0;
+}
+
+.content1 .card{
+    position: relative;
+    min-width: 210px;
+    height: 500px;
+    
+    
+    margin: 0;
+
+
+}
+.content1 .card .box{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background-image: url(stone.jpg);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgb(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+
+}
+.content1 .card .box1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background-image: url(mist.jpg);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgb(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.content1 .card .box2{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background-image: url(love.jpg);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgb(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+
+}
+.content1 .card .box3{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background-image: url(flame.jpg);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgb(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.content1 .card .box4{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background-image: url(water.jpg);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgb(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.content1 .card .box5{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background-image: url(bug.jpg);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgb(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.content1 .card .box6{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background-image: url(sound.jpg);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgb(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+
+}
+.content1 .card .box7{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background-image: url(wind.jpg);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgb(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.content1 .card .box8{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background-image: url(snake.jpg);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgb(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.content1 .card .box h4{
+    position: absolute;
+    bottom: 110px;
+    right: 40px;
+    font-size: 30px;
+    color: ivory;
+    transition: 0.5s;
+    font-family: Viner Hand Itc ;
+
+    
+}
+
+.content1 .card .box1 h4{
+    position: absolute;
+    bottom: 110px;
+    right: 40px;
+    font-size: 30px;
+    color: ivory;
+    transition: 0.5s;
+    font-family: Viner Hand Itc ;
+}
+
+.content1 .card .box2 h4{
+    position: absolute;
+    bottom: 110px;
+    right: 40px;
+    font-size: 30px;
+    color: ivory;
+    transition: 0.5s;
+    font-family: Viner Hand Itc ;
+}
+
+.content1 .card .box3 h4{
+    position: absolute;
+    bottom: 110px;
+    right: 40px;
+    font-size: 30px;
+    color: ivory;
+    transition: 0.5s;
+    font-family: Viner Hand Itc ;
+}
+
+.content1 .card .box4 h4{
+    position: absolute;
+    bottom: 110px;
+    right: 40px;
+    font-size: 30px;
+    color: ivory;
+    transition: 0.5s;
+    font-family: Viner Hand Itc ;
+}
+
+.content1 .card .box5 h4{
+    position: absolute;
+    bottom: 110px;
+    right: 40px;
+    font-size: 30px;
+    color: ivory;
+    transition: 0.5s;
+    font-family: Viner Hand Itc ;
+}
+
+.content1 .card .box6 h4{
+    position: absolute;
+    bottom: 110px;
+    right: 40px;
+    font-size: 30px;
+    color: ivory;
+    transition: 0.5s;
+    font-family: Viner Hand Itc ;
+}
+
+.content1 .card .box7 h4{
+    position: absolute;
+    bottom: 110px;
+    right: 40px;
+    font-size: 30px;
+    color: ivory;
+    transition: 0.5s;
+    font-family: Viner Hand Itc ;
+}
+
+.content1 .card .box8 h4{
+    position: absolute;
+    bottom: 110px;
+    right: 40px;
+    font-size: 30px;
+    color: ivory;
+    transition: 0.5s;
+    font-family: Viner Hand Itc ;
+    transition: 0.5s;
+}
+
+.content1 .card:hover .box {
+    transform: translate(0,80px);
+}
+.content1 .card:hover .box1 {
+    transform: translate(0,80px);
+}
+.content1 .card:hover .box2 {
+    transform: translate(0,80px);
+}
+.content1 .card:hover .box3 {
+    transform: translate(0,80px);
+}
+.content1 .card:hover .box4 {
+    transform: translate(0,80px);
+}
+.content1 .card:hover .box5 {
+    transform: translate(0,80px);
+}
+.content1 .card:hover .box6 {
+    transform: translate(0,80px);
+}
+.content1 .card:hover .box7 {
+    transform: translate(0,80px);
+}
+
+.herotitle{
+    position: absolute;
+    right: 500px;
+    font-size: 60px;
+    font-family: Viner Hand Itc;
+    color:#fff;
+    
+}
+
+/***********************SECTION 3***********************/
+.container3{
+    height: 100vh;
+    background-image: url(3.jpg);
+    background-size: cover;
+    
+}
+
+.container3 h1{
+    font-size: 40px;
+    font-family: Viner Hand Itc ;
+    color: azure;
+    position: absolute;
+    top: 210vh;
+    right: 650px;
+
+}
+.container3 p{
+    font-size: 20px;
+    font-family: Viner Hand Itc ;
+    color: azure;
+    position: absolute;
+    top: 220vh;
+    right: 200px;
+
+
+}
+
+/******************************************** SILDE 4*********************************************************/
+
+.container4{
+    height: 120vh;
+    background-image: url(zero.jpg);
+    background-size: cover;
+}
+.main {
+    font-size: 60px;
+    position: absolute;
+    top: 310vh;
+    left: 530px;
+    color: azure;
+    font-family:  Viner Hand Itc;
+}
+.main_box {
+    margin: 0;
+    position: absolute;
+    top: 500px;
+    left:250px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 350px;
+    height: 600px;
+    /* padding: 1rem; */
+    position: relative;
+    background:url(demonside.jpg);
+    background-size: cover;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.box {
+    
+    color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    height: 81.5%;
+}
+.h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family:  Viner Hand Itc;
+}
+
+.heading{
+    margin-bottom: 20px;
+    margin-top: -10px
+}
+
+.form{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.int{
+    border-radius: 60px;
+    font-size: 17px;
+   
+    background: transparent;
+    width: 250px;
+    height: 30px;
+    
+    
+}
+
+.button2{
+    position: absolute;
+    top:400px;
+    left:100px;
+    width: 160px;
+    height: 50px;
+    background:transparent;
+    border-radius: 20px;
+    font-family: cooper ;
+    font-size: 20px;
+    color: tomato;
+
+    
+}
+.heading h1{
+    font-family:Viner Hand Itc  ;
+}
+
+/**********************************************************************************************/
+.main_boxb {
+    margin: 0;
+    position: absolute;
+    top:-105px;
+    left:1250px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 350px;
+    height: 600px;
+    /* padding: 1rem; */
+    position: relative;
+    background:url(pillar.jpg);
+    background-size: cover;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.boxb {
+    
+    color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    height: 81.5%;
+}
+.h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: Viner Hand Itc ;
+}
+
+.heading{
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.form{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.int{
+    border-radius: 5px;
+    font-size: 17px;
+    margin-bottom: 10px;
+    border-color:grey;
+}
